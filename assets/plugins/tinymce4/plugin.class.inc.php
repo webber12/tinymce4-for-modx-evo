@@ -77,7 +77,7 @@ class TinyMCE4
     	$cfg['paste_word_valid_elements'] =  'a,p,b,strong,i,em,h1,h2,h3,h4,h5,h6,table,tbody,th,td,tr,tfooter,br,hr';
     	//template forecolor backcolor           
     	$cfg['toolbar1'] = "undo redo | cut copy paste | searchreplace | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent blockquote | styleselect";
-    	$cfg['toolbar2'] = "link unlink anchor image media codesample table | hr removeformat | subscript superscript charmap | nonbreaking | visualchars visualblocks print preview fullscreen code";
+    	$cfg['toolbar2'] = "link unlink anchor image media codesample table | hr removeformat | subscript superscript charmap | nonbreaking | visualchars visualblocks print preview | forecolor backcolor | fullscreen code";
 
 
 		if($lang_code!=='en')

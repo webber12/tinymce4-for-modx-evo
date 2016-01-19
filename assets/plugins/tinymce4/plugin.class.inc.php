@@ -68,7 +68,7 @@ class TinyMCE4
 		}
 		$cfg['style_formats'] = json_encode($sfArray);
 
-		$cfg['relative_urls'] = false;
+		$cfg['relative_urls'] = true;
 		$cfg['image_caption'] = true;
     	$cfg['menubar'] = false;
     	$cfg['toolbar_items_size'] = 'small';
